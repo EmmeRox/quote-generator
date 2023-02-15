@@ -37,6 +37,7 @@ body {
 
 .fa-quote-left {
   font-size: 4rem;
+  color: #553d51;
 }
 
 .quote-author {
@@ -59,14 +60,15 @@ button {
   border: none;
   border-radius: 10px;
   color: white;
-  background-color: #333;
+  background-color: #553d51;
   outline: none;
   padding: 0.5rem 1.8rem;
   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.6);
 }
 
 button:hover {
-  filter: brightness(110%);
+  filter: brightness(130%);
+  color: palevioletred;
 }
 
 button:active {
@@ -74,8 +76,19 @@ button:active {
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.6);
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  margin-bottom: 2em;
+}
+
+a {
+  color: #553d51;
+}
+
 .twitter-button:hover {
-  color: #38a1f3;
+  color: palevioletred;
 }
 
 .fa-twitter {
