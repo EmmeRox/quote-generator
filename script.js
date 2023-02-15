@@ -36,5 +36,15 @@ async function getQuotes() {
   }
 }
 
+// Tweet quote
+function tweetWQuote() {
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+  window.open(twitterUrl, "_blank");
+}
+
+//Event Listener
+newQuoteBtn.addEventListener("click", newQuote);
+twitterBtn.addEventListener("click", tweetWQuote);
+
 // On Load
 getQuotes();
